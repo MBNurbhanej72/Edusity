@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn {
+  background: #fff;
+  color: #212121;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebecfe;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e2c54;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000f38;
+}
+
+/***** Start Media Query Section ******/
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 8px 10px;
+  }
+}
+
+/***** End Media Query Section ******/
